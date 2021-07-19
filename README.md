@@ -1,2 +1,2 @@
 # UNIK
-Real-world Skeleton-based Action Recognition on Toyota Smarthome.
+Real-world Action Recognition on Toyota Smarthome dataset.
