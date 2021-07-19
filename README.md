@@ -1,2 +1,2 @@
 # UNIK
-Real-world Action Recognition on Toyota Smarthome dataset.
+A Unified Framework for Real-world Skeleton-based Action Recognition
