@@ -1,2 +1,2 @@
 # UNIK
-A Unified Framework for Real-world Skeleton-based Action Recognition
+Real-world Skeleton-based Action Recognition on Toyota Smarthome.
