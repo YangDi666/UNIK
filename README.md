@@ -82,6 +82,7 @@ For evaluation on Smarthome:
  - Cross-view:
  
        python evaluation-cv.py runs/smarthome_cv2_unik_test_joint_right.txt 19
+       python evaluation-cv.py runs/smarthome_cv1_unik_test_joint_right.txt 19
 
 ## Citation
 If you find this code useful for your research, please consider citing our paper:
