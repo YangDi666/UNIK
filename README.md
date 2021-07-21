@@ -2,7 +2,7 @@
 
 ### [Paper](https://arxiv.org/pdf/2107.08580)
 
-![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.png)
+
 
 ## Evironment
 
@@ -11,10 +11,11 @@
 ## Data Preparation
 
  - `mkdir data`
+ - Posetics: Comming soon!
+   ![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.png)
  - [Toyota Smarthome](https://github.com/YangDi666/SSTA-PRS#refined-pose-data): download the raw data (skeleton-v2.0 refined by [SSTA-PRSS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
  - Penn Action: download the raw [skeleton data](https://drive.google.com/file/d/13RUvRrNFOlyKSVwNuQAYqg3Vib7Ffbn8/view?usp=sharing).
- - Posetics: Comming soon!
- - For other datasets: [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D)/[Skeleton-Kinetics](https://github.com/yysijie/st-gc)
+ - For other datasets: [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D)/[Skeleton-Kinetics](https://github.com/yysijie/st-gcn).
  - Put them under the data directory:
 
         -data\
@@ -28,13 +29,26 @@
              - ... .json
                ...
          -posetics_raw\
-            -skeletons\
-             - ... .json
-               ...               
+	     -posetics_train\
+               - ... .json
+                 ...        
+             -posetics_val\
+               - ... .json
+                 ... 
+             -posetics_train_label.json
+             -posetics_val_label.json                     
          -nturgbd_raw\
-            -nturgb+d_skeletons/
+	    -samples_with_missing_skeletons.txt
+            -nturgb+d_skeletons\
              - ... .skeleton
              - ...
+         -kinetics_raw\
+	     -kinetics_train\
+               ...
+             -kinetics_val\
+               ...
+             -kinetics_train_label.json
+             -keintics_val_label.json
          - ...
              
  - Preprocess the data with
