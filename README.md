@@ -3,10 +3,9 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
 
 ![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.pdf)
 
-# Note
+# Evironment
 
-~~PyTorch version >=Pytorch0.4. \
-
+-- Python3 with PyTorch version >=Pytorch0.4.
 
 # Data Preparation
 
@@ -14,10 +13,7 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
  - Toyota Smarthome: download the raw data (skeleton-v2.0 refined by [SSTA-PRSS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
  - Penn Action: download the raw [skeleton data](https://drive.google.com/file/d/13RUvRrNFOlyKSVwNuQAYqg3Vib7Ffbn8/view?usp=sharing).
  - Posetics: Comming soon!
- - For other datasets:
-[https://github.com/shahroudy/NTURGB-D]: NTU-RGB+D
-[https://github.com/yysijie/st-gcn]: Skeleton-Kinetics
- 
+ - For other datasets: [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D)/[Skeleton-Kinetics](https://github.com/yysijie/st-gc)
  - Put them under the data directory:
 
         -data\
@@ -41,17 +37,19 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
         ...
              
  - Preprocess the data with
-
-    `cd data_gen`
-
-    `python smarthome_gendata.py`
-    `python penn_gendata.py`
+    ```
+    cd data_gen`
+    
+    python smarthome_gendata.py
+    
+    python penn_gendata.py
+    
     ...
-
-
+    ```
+    
  - Generate the bone data with:
 
-    `python gen_bone_data.py`
+    ```python gen_bone_data.py`
 
 # Pre-training on Posetics
 
