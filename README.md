@@ -29,27 +29,22 @@
              - ... .json
                ...
          -posetics_raw\
+             -posetics_train_label.json
+             -posetics_val_label.json  
 	     -posetics_train\
                - ... .json
                  ...        
              -posetics_val\
                - ... .json
                  ... 
-             -posetics_train_label.json
-             -posetics_val_label.json                     
          -nturgbd_raw\
-	    -samples_with_missing_skeletons.txt
-            -nturgb+d_skeletons\
-             - ... .skeleton
-             - ...
-         -kinetics_raw\
-	     -kinetics_train\
-               ...
-             -kinetics_val\
-               ...
-             -kinetics_train_label.json
-             -keintics_val_label.json
-         - ...
+             -samples_with_missing_skeletons.txt
+             -nturgb+d_skeletons\
+              - ... .skeleton
+              - ...
+         -kinetics_raw\             
+                ...
+         -...
              
  - Preprocess the data with
     ```
