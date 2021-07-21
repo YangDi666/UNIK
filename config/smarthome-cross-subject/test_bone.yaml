@@ -1,0 +1,27 @@
+# feedebasbaseer
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/smarthome/xsub/val_data_bone.npy
+  label_path: ./data/smarthome/xsub/val_label.pkl
+  debug: False 
+
+# model
+model: model.classifier.Model
+model_args:
+  num_class: 31
+  num_joints: 17
+  num_person: 2
+  in_channels: 2
+  num_heads: 3
+  tau: 1
+  
+# test
+phase: test
+device: [0,1]
+test_batch_size: 32
+
+weights: ./runs/smarthome/smarthome_cs_unik_bone-49-33350.pt
+work_dir: ./work_dir/smarthome/xsub/unik_test_bone
+model_saved_name: ./runs/smarthome/smarthome_cs_unik_test_bone
+save_score: True
+

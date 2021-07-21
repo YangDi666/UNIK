@@ -1,0 +1,46 @@
+
+work_dir: ./work_dir/penn/xsub/unik_joint
+
+model_saved_name: ./runs/penn/penn_unik_joint
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  data_path: ./data/penn/train_data_joint.npy
+  label_path: ./data/penn/train_label.pkl
+  debug: False
+  random_choose: True
+  random_shift: False
+  random_move: True
+  window_size: 150
+  normalization: False
+
+test_feeder_args:
+  data_path: ./data/penn/val_data_joint.npy
+  label_path: ./data/penn/val_label.pkl
+  debug: False
+  
+# model
+model: model.classifier.Model
+model_args:
+  weights: ./weights/weights-posetics.pt
+  backbone_fixed: False
+  num_class: 15
+  num_joints: 17
+  num_person: 2
+  in_channels: 2
+  num_heads: 3
+  #num_heads: 6
+  #tau: 5
+  
+#optim
+weight_decay: 0.0005
+base_lr: 0.05
+step: [10, 20]
+
+# training
+device: [0, 1]
+batch_size: 8
+test_batch_size: 32
+num_epoch: 30
+nesterov: True
+

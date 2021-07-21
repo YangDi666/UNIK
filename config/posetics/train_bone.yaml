@@ -1,0 +1,40 @@
+work_dir: ./work_dir/posetics/unik_bone
+model_saved_name: ./runs/posetics/posetics_unik_bone
+
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  random_choose: True
+  random_move: True
+  window_size: 150
+  data_path: ./data/posetics/train_data_bone.npy
+  label_path: ./data/posetics/train_label.pkl
+  debug: False
+
+test_feeder_args:
+  data_path: ./data/posetics/val_data_bone.npy
+  label_path: ./data/posetics/val_label.pkl
+
+# model
+model: model.backbone_unik.UNIK
+model_args:
+  num_class: 320
+  num_person: 2
+  num_joints: 17
+  num_heads: 3
+  tau: 1
+  in_channels: 2
+
+#optim
+weight_decay: 0.0001
+base_lr: 0.1
+step: [45, 55]
+
+# training
+device: [0, 1]
+batch_size: 64
+test_batch_size: 64
+num_epoch: 65
+nesterov: True
+
+

@@ -1,0 +1,43 @@
+work_dir: ./work_dir/smarthome/xview2/unik_joint
+model_saved_name: ./runs/smarthome/smarthome_cv2_unik_joint
+# feeder
+feeder: feeders.feeder.Feeder
+train_feeder_args:
+  data_path: ./data/smarthome/xview2/train_data_joint.npy
+  label_path: ./data/smarthome/xview2/train_label.pkl
+  debug: False
+  random_choose: True
+  random_shift: False
+  random_move: True
+  window_size: 400
+  normalization: False
+
+test_feeder_args:
+  data_path: ./data/smarthome/xview2/val_data_joint.npy
+  label_path: ./data/smarthome/xview2/val_label.pkl
+  random_choose: True
+  window_size: 400
+
+# model
+model: model.classifier.Model
+model_args:
+  num_class: 19
+  num_joints: 17
+  num_person: 2
+  in_channels: 2
+  num_heads: 3
+  weights: weights/weights-posetics.pt 
+  backbone_fixed: False
+
+ 
+#optim
+weight_decay: 0.0005
+base_lr: 0.05
+step: [30, 40]
+
+# training
+device: [0, 1]
+batch_size: 16
+test_batch_size: 32
+num_epoch: 50
+nesterov: True
