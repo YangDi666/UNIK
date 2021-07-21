@@ -36,7 +36,7 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
              
  - Preprocess the data with
     ```
-    cd data_gen`
+    cd data_gen
     python smarthome_gendata.py
     python penn_gendata.py
     ...
@@ -48,9 +48,8 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
 
 ## Pre-training on Posetics
 
-    ```
-    python run_unik.py --config ./config/posetics/train_joint.yaml
-    ```
+    ```python run_unik.py --config ./config/posetics/train_joint.yaml```
+    
  
 Pre-trained model is now avalable [here](https://drive.google.com/file/d/1K6RVaV02oy0gy8swab8V0s6T7a9YPuxS/view?usp=sharing). Move it to 
 
@@ -59,21 +58,20 @@ Pre-trained model is now avalable [here](https://drive.google.com/file/d/1K6RVaV
 ## Training (Fine-tuining) & Testing
 
 Change the config file depending on what you want (e.g., for Smarthome).
-    ```
-    python run_unik.py --config ./config/smarthome-cross-subject/train_joint.yaml
-    python run_unik.py --config ./config/smarthome-cross-subject/train_bone.yaml
-    ```
+
+    ```python run_unik.py --config ./config/smarthome-cross-subject/train_joint.yaml```
+    
+    ```python run_unik.py --config ./config/smarthome-cross-subject/train_bone.yaml```
 
 To ensemble the results of joints and bones, run test firstly to generate the scores of the softmax layer.
-    ```
-    python run_unik.py --config ./config/smarthome-cross-subject/test_joint.yaml
-    python run_unik.py --config ./config/smarthome-cross-subject/test_bone.yaml
-    ```
+
+    ```python run_unik.py --config ./config/smarthome-cross-subject/test_joint.yaml```
+    
+    ```python run_unik.py --config ./config/smarthome-cross-subject/test_bone.yaml```
 
 Then combine the generated scores with:
-    ```
-    python ensemble.py --datasets smarthome/xsub
-    ```
+
+    ```python ensemble.py --datasets smarthome/xsub```
 
 For evaluation on Smarthome:
 
