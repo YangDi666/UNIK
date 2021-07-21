@@ -25,12 +25,12 @@
             -skeletons\
              - ... .json
                ...
-        - posetics_raw\
-            - skeletons\
+        -posetics_raw\
+            -skeletons\
              - ... .json
                ...               
-        - nturgbd_raw\
-            - nturgb+d_skeletons/
+        -nturgbd_raw\
+            -nturgb+d_skeletons/
              - ... .skeleton
              - ...
         - ...
