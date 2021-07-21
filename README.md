@@ -11,7 +11,7 @@
 ## Data Preparation
 
  - `mkdir data`
- - Posetics: Comming soon!
+ - The Posetics dataset: Comming soon!
    ![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.png)
  - [Toyota Smarthome](https://github.com/YangDi666/SSTA-PRS#refined-pose-data): download the raw data (skeleton-v2.0 refined by [SSTA-PRSS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
  - Penn Action: download the raw [skeleton data](https://drive.google.com/file/d/13RUvRrNFOlyKSVwNuQAYqg3Vib7Ffbn8/view?usp=sharing).
@@ -31,7 +31,7 @@
          -posetics_raw\
              -posetics_train_label.json
              -posetics_val_label.json  
-	     -posetics_train\
+             -posetics_train\
                - ... .json
                  ...        
              -posetics_val\
