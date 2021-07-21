@@ -87,12 +87,10 @@ For evaluation on Smarthome:
 ## Citation
 If you find this code useful for your research, please consider citing our paper:
 ```bibtex
-@misc{yang2021unik,
+@article{yang2021unik,
       title={UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition}, 
       author={Di Yang and Yaohui Wang and Antitza Dantcheva and Lorenzo Garattoni and Gianpiero Francesca and Francois Bremond},
       year={2021},
-      eprint={2107.08580},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      journal={arXiv preprint arXiv:2107.08580}
 }
 ```
