@@ -23,7 +23,7 @@ model_args:
   num_joints: 25
   num_person: 2
   in_channels: 3
-  num_heads: 9
+  num_heads: 4
 
 #optim
 weight_decay: 0.0001
