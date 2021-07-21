@@ -1,5 +1,6 @@
-# UNIK
-A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](https://arxiv.org/abs/2107.08580)]
+# UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition
+
+[Paper](https://arxiv.org/pdf/2107.08580)
 
 ## Evironment
 
