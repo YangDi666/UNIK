@@ -21,19 +21,19 @@
              - ... .json
                ... .json
                ...               
-        -pennAction_raw\
+         -pennAction_raw\
             -skeletons\
              - ... .json
                ...
-        -posetics_raw\
+         -posetics_raw\
             -skeletons\
              - ... .json
                ...               
-        -nturgbd_raw\
+         -nturgbd_raw\
             -nturgb+d_skeletons/
              - ... .skeleton
              - ...
-        - ...
+         - ...
              
  - Preprocess the data with
     ```
