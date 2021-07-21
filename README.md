@@ -32,14 +32,14 @@ A Unified Framework for Real-world Skeleton-based Action Recognition [[Paper](ht
             - nturgb+d_skeletons/
              - ... .skeleton
              - ...
-        ...
+        - ...
              
  - Preprocess the data with
     ```
     cd data_gen
     python smarthome_gendata.py
     python penn_gendata.py
-    ...
+           ...
     ```
     
  - Generate the bone data with:
