@@ -29,19 +29,19 @@
              - ... .json
                ...
          -posetics_raw\
-             -posetics_train_label.json
-             -posetics_val_label.json  
-             -posetics_train\
-               - ... .json
-                 ...        
-             -posetics_val\
-               - ... .json
-                 ... 
+            -posetics_train_label.json
+            -posetics_val_label.json  
+            -posetics_train\
+             - ... .json
+               ...        
+            -posetics_val\
+             - ... .json
+               ... 
          -nturgbd_raw\
-             -samples_with_missing_skeletons.txt
-             -nturgb+d_skeletons\
-              - ... .skeleton
-              - ...
+            -samples_with_missing_skeletons.txt
+            -nturgb+d_skeletons\
+             - ... .skeleton
+             - ...
          -kinetics_raw\             
                 ...
          -...
