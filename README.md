@@ -1,4 +1,4 @@
-# UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition
+# UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition (BMVC 2021 Oral)
 
 ### [Paper](https://arxiv.org/pdf/2107.08580)
 
