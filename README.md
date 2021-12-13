@@ -11,7 +11,7 @@
 ## Data Preparation
 
  - `mkdir data`
- - The Posetics dataset: Comming soon!
+ - The Posetics dataset: Please contact us ([di.yang@inria.fr](di.yang@inria.fr)) for Data Request.
    ![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.png)
  - [Toyota Smarthome](https://github.com/YangDi666/SSTA-PRS#refined-pose-data): download the raw data (skeleton-v2.0 refined by [SSTA-PRSS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
  - Penn Action: download the raw [skeleton data](https://drive.google.com/file/d/13RUvRrNFOlyKSVwNuQAYqg3Vib7Ffbn8/view?usp=sharing).
