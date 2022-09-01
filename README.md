@@ -1,6 +1,8 @@
 # Unified Framework for Real-world Skeleton Action Recognition 
 
-[UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition (BMVC'21 Oral)](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
+[Selective Spatio-Temporal Aggregation Based Pose Refinement System](https://openaccess.thecvf.com/content/WACV2021/papers/Yang_Selective_Spatio-Temporal_Aggregation_Based_Pose_Refinement_System_Towards_Understanding_Human_WACV_2021_paper.pdf) | [Project page](https://github.com/YangDi666/SSTA-PRS)
+
+[UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
 
 [ViA: View-invariant Skeleton Action Representation Learning via Motion Retargeting](https://arxiv.org/pdf/) | [Project page](https://walker-a11y.github.io/ViA-project/)
 
