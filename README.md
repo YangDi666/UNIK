@@ -1,7 +1,8 @@
-# [BMVC'21 Oral] UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition 
+# A Unified Framework for Real-world Skeleton-based Action Recognition 
 
-### [Paper](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
+[UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition (BMVC'21 Oral)](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
 
+[ViA: View-invariant Skeleton Action Representation Learning via Motion Retargeting](https://arxiv.org/pdf/) | [Project page](https://walker-a11y.github.io/ViA-project/)
 
 
 ## Evironment
@@ -103,6 +104,13 @@ If you find this code useful for your research, please consider citing our paper
       title={UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition}, 
       author={Di Yang and Yaohui Wang and Antitza Dantcheva and Lorenzo Garattoni and Gianpiero Francesca and Francois Bremond},
       year={2021},
+      journal={BMVC}
+}
+
+@article{yang2022via,
+      title={ViA: View-invariant Skeleton Action Representation Learning via Motion Retargeting}, 
+      author={Di Yang and Yaohui Wang and Antitza Dantcheva and Lorenzo Garattoni and Gianpiero Francesca and Francois Bremond},
+      year={2022},
       journal={arXiv preprint arXiv:2107.08580}
 }
 ```
