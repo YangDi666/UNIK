@@ -1,9 +1,7 @@
 # Unified Framework for Real-world Skeleton Action Recognition 
 
-[Selective Spatio-Temporal Aggregation Based Pose Refinement System](https://openaccess.thecvf.com/content/WACV2021/papers/Yang_Selective_Spatio-Temporal_Aggregation_Based_Pose_Refinement_System_Towards_Understanding_Human_WACV_2021_paper.pdf) | [Project page](https://github.com/YangDi666/SSTA-PRS)
-
-[UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
-
+[SSTA-PRS: Selective Spatio-Temporal Aggregation Based Pose Refinement System](https://openaccess.thecvf.com/content/WACV2021/papers/Yang_Selective_Spatio-Temporal_Aggregation_Based_Pose_Refinement_System_Towards_Understanding_Human_WACV_2021_paper.pdf) | [Project page](https://github.com/YangDi666/SSTA-PRS)  
+[UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)  
 [ViA: View-invariant Skeleton Action Representation Learning via Motion Retargeting](https://arxiv.org/pdf/) | [Project page](https://walker-a11y.github.io/ViA-project/)
 
 ## Evironment
@@ -15,7 +13,7 @@
  - `mkdir data`
  - Posetics: please contact us ([di.yang@inria.fr](di.yang@inria.fr)) for Data Request.
    ![ad](https://github.com/YangDi666/UNIK/blob/main/demo/demo.png)
- - [Toyota Smarthome](https://github.com/YangDi666/SSTA-PRS#refined-pose-data): download the raw data (skeleton-v2.0 refined by [SSTA-PRSS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
+ - [Toyota Smarthome](https://github.com/YangDi666/SSTA-PRS#refined-pose-data): download the raw data (skeleton-v2.0 refined by [SSTA-PRS](https://github.com/YangDi666/SSTA-PRS#refined-pose-data)). 
  - Penn Action: download the raw [skeleton data](https://drive.google.com/file/d/13RUvRrNFOlyKSVwNuQAYqg3Vib7Ffbn8/view?usp=sharing).
  - For other datasets: [NTU-RGB+D](https://github.com/shahroudy/NTURGB-D)/[Skeleton-Kinetics](https://github.com/yysijie/st-gcn).
  - Put them under the data directory:
