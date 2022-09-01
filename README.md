@@ -1,4 +1,4 @@
-# A Unified Framework for Real-world Skeleton-based Action Recognition 
+# Unified Framework for Real-world Skeleton-based Action Recognition 
 
 [UNIK: A Unified Framework for Real-world Skeleton-based Action Recognition (BMVC'21 Oral)](https://arxiv.org/pdf/2107.08580) | [Project page](https://yangdi666.github.io/UNIK-project/)
 
